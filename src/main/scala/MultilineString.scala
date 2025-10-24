@@ -21,6 +21,16 @@ object MultilineString {
         #This is scala
         #Using custom margin character""".stripMargin('#')
         println(cmc)
+
+println("")
+
+    val name="Suryabhan Singh"
+    val greet=
+      s"""Hello $name,
+         |Welcome to Scala Learning!
+         |let master Scala step by step.
+         """.stripMargin
+         println(greet)
   }
 
 }
